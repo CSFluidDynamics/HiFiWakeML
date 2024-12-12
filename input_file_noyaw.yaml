@@ -1,0 +1,98 @@
+---
+# FLORIS model configuration File
+florisinput_file: './gch_v4.yaml'
+
+# Wind statistic File
+windstat_file: './WindDensity.mat'
+
+# Output File name
+output_file: './AnnualEnergyProduction.dat'
+
+# Parallel if >1 then run in parallel
+num_workers: 2
+
+# Number of Turbines
+wind_farm:
+  num_turbs: 12 
+  cutInVel:  3.0
+  cutOutVel: 25.0
+  layout_x: 
+    - 1200.0
+    - 3000.0
+    - 4800.0
+    - 1200.0
+    - 3000.0
+    - 4800.0
+    - 1200.0
+    - 3000.0
+    - 4800.0
+    - 1200.0
+    - 3000.0
+    - 4800.0
+  layout_y: 
+    - 3348.0
+    - 3348.0
+    - 3348.0
+    - 5148.0
+    - 5148.0
+    - 5148.0
+    - 6948.0
+    - 6948.0
+    - 6948.0
+    - 8748.0
+    - 8748.0
+    - 8748.0
+  yaw_angle: 
+    - 0.0 
+    - 0.0 
+    - 0.0
+    - 0.0 
+    - 0.0 
+    - 0.0
+    - 0.0 
+    - 0.0 
+    - 0.0
+    - 0.0 
+    - 0.0 
+    - 0.0 
+# Resolution of the FLORIS simulation output 
+domain:
+  lx: 7920.0
+  ly: 12000.0 
+  nx: 478 
+  ny: 1681 
+  nz: 31 
+  hgrid:   
+    - 0.000000
+    - 7.200000
+    - 14.40000
+    - 21.60000
+    - 28.80000
+    - 36.00000
+    - 43.20000
+    - 50.40000
+    - 57.60000
+    - 64.80000
+    - 72.00000
+    - 79.20000
+    - 86.40000
+    - 93.60000
+    - 100.80000
+    - 108.00000
+    - 115.20000
+    - 122.40000
+    - 129.60000
+    - 136.80000
+    - 144.00000
+    - 151.20000
+    - 158.40000
+    - 165.60000
+    - 172.80000
+    - 180.00000
+    - 187.20000
+    - 194.40000
+    - 201.60000
+    - 208.80000
+    - 216.00000
+
+   
