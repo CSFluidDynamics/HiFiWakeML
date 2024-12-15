@@ -17,6 +17,6 @@ To initiate the training process, it's essential to define the Turbine type (usi
 The **unet.py** file can be used to train the model from scratch.
 
 
-** Reference **
+**Reference**
 
 C. Santoni, D. Zhang, Z. Zhang, D. Samaras, F. Sotiropoulos, A. Khosronejad; Toward ultra-efficient high-fidelity predictions of wind turbine wakes: Augmenting the accuracy of engineering models with machine learning. Physics of Fluids 1 June 2024; 36 (6): 065159. https://doi.org/10.1063/5.0213321
