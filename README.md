@@ -15,3 +15,7 @@ The **param.yaml** files are case-specific auxiliary data injected into the 2D U
 
 To initiate the training process, it's essential to define the Turbine type (using the brand-specific data) in the gch.yaml file, declare domain size and number of computational nodes in **input_file.yaml**, and generate the floris data with the corresponding configurations using **fldataset.py**. 
 The **unet.py** file can be used to train the model from scratch.
+
+
+** Reference **
+C. Santoni, D. Zhang, Z. Zhang, D. Samaras, F. Sotiropoulos, A. Khosronejad; Toward ultra-efficient high-fidelity predictions of wind turbine wakes: Augmenting the accuracy of engineering models with machine learning. Physics of Fluids 1 June 2024; 36 (6): 065159. https://doi.org/10.1063/5.0213321
